@@ -1,61 +1,76 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel="stylesheet" href="app.css">
+  </head>
+
+  <body>
     <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="resume.html">Resume</a></li>
-          
         </ul>
     </nav>
-  </head>
 
-  <body>
-    
-    
-    <div class = imaging>
-      <div class = "contents">
+    <div class="imaging">
+      <div class="contents">
         <h2>My Projects:</h2>
         <h2>My Projects:</h2>
       </div>
-        <div class="project-grid">
-          
-          <!--how do i change the image in project-grid to be bigger using the code below:-->
-          
 
-          <a href="https://devpost.com/software/usc-snapcode" class="project">
-            <figcaption>USC SnapCode</figcaption>
-            <img src="images/8-9DNf2Zwd6RJmSpw.png"  style="--c: #668284;--b:1px;--s: 18px" alt="SnapCode thumbnail" >
-            <!--make image src appear smaller-->
+      <div class="project-grid">
 
-            
+        <a href="https://drive.google.com/file/d/1s6fPVSWtlVpQMpadnJKEMUJUJ3u1KFus/view?usp=sharing"
+           class="project" target="_blank" rel="noopener">
+          <figcaption>Adaptive RAG Research Paper</figcaption>
+          <div class="project-cover project-cover--rag">
+            <span class="project-cover-eyebrow">Research · 2024–2025</span>
+            <span class="project-cover-title">Adaptive RAG</span>
+            <span class="project-cover-blurb">
+              Token-Efficient QA with Adaptive RAG via Uncertainty Estimation — a novel
+              pipeline that triggers retrieval only when an LLM is uncertain, cutting tokens
+              without losing accuracy. Benchmarked on SQuAD, Natural Questions, and TriviaQA.
+            </span>
+            <span class="project-cover-tags">Python · PyTorch · NLP</span>
+          </div>
+        </a>
 
-            
-          </a>
-          <a href="https://allenvtran.github.io/Biology-Research-Website/" class="project">
-            <figcaption>Rubella Info Page</figcaption>
-            <img src="images/1672790398210.jpeg" style="--c: #668284;--b:1px;--s: 18px" alt="Rubella Info Page thumbnail">
-            <!--make image smaller-->
-            
-          </a>
-          <a href="https://sites.google.com/view/scformulaelectric/home" class="project">
-            <figcaption>FSAE SCFormulaElectric</figcaption>
-            <img src="images/1603867675613.jpeg" style="--c: #668284;--b:1px;--s: 18px" alt="Project 3 thumbnail">
-            
-          </a>
-          <a href="https://devpost.com/software/weblift-ai-kqm8b1?ref_content=user-portfolio&ref_feature=in_progress" class="project">
-            <figcaption>Weblift.AI</figcaption>
-            <img src="images/WebLiftDarker.png" style="--c: #668284;--b:1px;--s: 18px" alt="Project 3 thumbnail">
-            
-          </a>
-          
-          
-        </div>
+        <a href="https://trybizlang.com" class="project" target="_blank" rel="noopener">
+          <figcaption>BizLang</figcaption>
+          <div class="project-cover project-cover--bizlang">
+            <span class="project-cover-eyebrow">Product · 2023–present</span>
+            <span class="project-cover-title">BizLang</span>
+            <span class="project-cover-blurb">
+              A Duolingo-style app for learning industry-specific language through games,
+              flashcards, and news. 1,000+ jargon terms, 100+ users, in beta with 30
+              healthcare professionals in Ethiopia.
+            </span>
+            <span class="project-cover-tags">React · Flask · GNews API</span>
+          </div>
+        </a>
+
+        <a href="images/DNA_Foundation_Models_Paper.pdf"
+           class="project" target="_blank" rel="noopener">
+          <figcaption>DNA Foundation Models Paper</figcaption>
+          <div class="project-cover project-cover--dna">
+            <span class="project-cover-eyebrow">Research · Jan–May 2026</span>
+            <span class="project-cover-title">DNA Foundation Models</span>
+            <span class="project-cover-blurb">
+              Probing and Lightweight Fine-Tuning of DNA Foundation Models — comparing
+              DNABERT-2, Nucleotide Transformer, and HyenaDNA on genomic classification
+              with probing, full fine-tuning, and LoRA across promoter and enhancer tasks.
+            </span>
+            <span class="project-cover-tags">PyTorch · DNABERT-2 · LoRA</span>
+          </div>
+        </a>
+
+      </div>
     </div>
 
+    <script type="module" src="chat.js"></script>
   </body>
 </html>
