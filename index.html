@@ -7,52 +7,327 @@
   <script src="app.js"></script>
   <link rel="stylesheet" type="text/css" href="app.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="resume.html">Resume</a></li>
-    </ul>
-  </nav>
-
 <main>
-  
+
   <div class="mainContainer">
-    <div class="headShotContainer">
-      <img src="images/IMG_2306-modified.png" alt="Profile picture" class="profile-picture">
-      <!--add shadow below image-->
-
-
-    </div>
-   
     <div class="boxRight">
-     
+
         <div class="content">
-      
-            <h2> Allen Tran </h2>
-            <h2> Allen Tran </h2>
-            <h2> Builder. Coder. Dreamer. </h2>
-            <p>A USC student studying at the intersection of Computer Science and Entrepeneurship to come up with creative ideas using technology like AI and full-stack web development. </p>
-            <br>
+            <div class="roblox-avatar" role="img" aria-label="Allen Tran, Roblox-style avatar in fedora and suit, waving">
+              <svg viewBox="0 0 440 400" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <!-- Speech bubble (top-right) -->
+                <g class="speech-bubble">
+                  <path d="M 252,14
+                           H 408
+                           Q 422,14 422,28
+                           V 102
+                           Q 422,116 408,116
+                           H 295
+                           L 232,150
+                           L 278,116
+                           H 252
+                           Q 238,116 238,102
+                           V 28
+                           Q 238,14 252,14 Z"
+                        fill="#ffffff" stroke="#1B1B1B" stroke-width="3" stroke-linejoin="round"/>
+                  <text x="330" y="56" font-family="'Russo One', 'Arial Black', sans-serif"
+                        font-size="14" fill="#1B1B1B" text-anchor="middle" letter-spacing="2">WELCOME TO</text>
+                  <text x="330" y="92" font-family="'Russo One', 'Arial Black', sans-serif"
+                        font-size="16" fill="#E2231A" text-anchor="middle" letter-spacing="0.8">ALLEN'S EXPERIENCE</text>
+                </g>
+
+                <!-- subtle ground shadow under the avatar -->
+                <ellipse cx="130" cy="388" rx="92" ry="6" fill="rgba(0,0,0,0.55)"/>
+
+                <!-- Black trousers (legs) -->
+                <rect x="80"  y="304" width="46" height="78" rx="3"
+                      fill="#141414" stroke="#000" stroke-width="3"/>
+                <rect x="132" y="304" width="46" height="78" rx="3"
+                      fill="#141414" stroke="#000" stroke-width="3"/>
+
+                <!-- Left arm: red suit sleeve, down at side -->
+                <rect x="50" y="222" width="28" height="76" rx="3"
+                      fill="#6E0F0F" stroke="#1B1B1B" stroke-width="3"/>
+                <!-- Hand (skin) at end of left arm -->
+                <rect x="48" y="294" width="32" height="22" rx="3"
+                      fill="#EDB78A" stroke="#1B1B1B" stroke-width="3"/>
+
+                <!-- Right arm: raised to wave (CSS-animated) -->
+                <g class="waving-arm">
+                  <!-- red suit sleeve -->
+                  <rect x="170" y="138" width="28" height="86" rx="3"
+                        fill="#6E0F0F" stroke="#1B1B1B" stroke-width="3"/>
+                  <!-- skin hand at top -->
+                  <rect x="162" y="106" width="44" height="36" rx="4"
+                        fill="#EDB78A" stroke="#1B1B1B" stroke-width="3"/>
+                  <!-- finger lines for waving palm -->
+                  <line x1="172" y1="115" x2="172" y2="135" stroke="#1B1B1B" stroke-width="1.5"/>
+                  <line x1="184" y1="112" x2="184" y2="135" stroke="#1B1B1B" stroke-width="1.5"/>
+                  <line x1="196" y1="115" x2="196" y2="135" stroke="#1B1B1B" stroke-width="1.5"/>
+                </g>
+
+                <!-- Torso: dark red suit jacket -->
+                <rect x="76" y="222" width="108" height="86" rx="3"
+                      fill="#6E0F0F" stroke="#1B1B1B" stroke-width="3"/>
+                <!-- Lapels (black V) -->
+                <path d="M 76,222 L 130,270 L 184,222 Z" fill="#1a1a1a"/>
+                <!-- Inner suit shading line -->
+                <line x1="130" y1="270" x2="130" y2="308" stroke="#3d0808" stroke-width="2"/>
+                <!-- White shirt collar triangle peeking through -->
+                <path d="M 116,222 L 130,242 L 144,222 Z" fill="#ffffff" stroke="#1B1B1B" stroke-width="1.5"/>
+                <!-- Bowtie -->
+                <path d="M 110,232 L 110,254 L 130,243 L 150,254 L 150,232 L 130,243 Z"
+                      fill="#0a0a0a" stroke="#000" stroke-width="1.5" stroke-linejoin="round"/>
+                <rect x="127" y="238" width="6" height="10" rx="1" fill="#1a1a1a"/>
+
+                <!-- Neck (skin) -->
+                <rect x="118" y="210" width="24" height="14"
+                      fill="#D9A175" stroke="#1B1B1B" stroke-width="3"/>
+
+                <!-- Head (skin) -->
+                <rect x="62" y="62" width="136" height="152" rx="6"
+                      fill="#EDB78A" stroke="#1B1B1B" stroke-width="3"/>
+
+                <!-- Black headphone ear cups on the sides of the head -->
+                <ellipse cx="58"  cy="142" rx="16" ry="24"
+                         fill="#1a1a1a" stroke="#000" stroke-width="2.5"/>
+                <ellipse cx="202" cy="142" rx="16" ry="24"
+                         fill="#1a1a1a" stroke="#000" stroke-width="2.5"/>
+                <!-- Inner ear-cup detail -->
+                <ellipse cx="58"  cy="142" rx="9" ry="15" fill="#2c2c2c"/>
+                <ellipse cx="202" cy="142" rx="9" ry="15" fill="#2c2c2c"/>
+
+                <!-- Black wayfarer-style sunglasses across the eyes -->
+                <rect x="74" y="128" width="112" height="24" rx="4"
+                      fill="#0a0a0a" stroke="#000" stroke-width="2"/>
+                <!-- bridge between the lenses -->
+                <rect x="128" y="134" width="4" height="12" fill="#0a0a0a"/>
+                <!-- subtle lens highlights -->
+                <rect x="82"  y="134" width="40" height="6" rx="1.5" fill="#2e2e2e"/>
+                <rect x="138" y="134" width="40" height="6" rx="1.5" fill="#2e2e2e"/>
+
+                <!-- Roblox smile -->
+                <path d="M100,178 Q130,202 160,178"
+                      stroke="#1a1a1a" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+
+                <!-- Red fedora — sits on top of the head -->
+                <!-- brim (wide ellipse) -->
+                <ellipse cx="130" cy="76" rx="92" ry="14"
+                         fill="#B41E1E" stroke="#1B1B1B" stroke-width="3"/>
+                <!-- crown -->
+                <rect x="82" y="30" width="96" height="50" rx="6"
+                      fill="#B41E1E" stroke="#1B1B1B" stroke-width="3"/>
+                <!-- darker hat band around the base of the crown -->
+                <rect x="82" y="64" width="96" height="14"
+                      fill="#5a0a0a"/>
+                <!-- subtle highlight on the crown -->
+                <ellipse cx="130" cy="38" rx="40" ry="6"
+                         fill="#911818"/>
+              </svg>
+            </div>
         </div>
         <div class="social-media" id="social-media">
           <a href="https://www.linkedin.com/in/allenvtran/"><i class='bx bxl-linkedin-square'></i></a>
           <a href="https://github.com/allenvtran"><i class='bx bxl-github'></i></a>
-          <a href="https://www.instagram.com/allen__tran/"><i class='bx bxl-instagram'></i></a>
+          <a href="https://x.com/allvntran" aria-label="X (formerly Twitter)">
+            <svg class="x-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
         </div>
-        <!--<button type="button" onclick="myFunction()">Try it</button>-->
-     
-    
+
     </div>
 
-  </div> 
-  
-  
-  
-  
-  
+  </div>
+
+  <div class="imaging">
+    <section class="playlist" aria-label="Projects playlist">
+      <div class="playlist-header">
+        <span class="playlist-name">projects</span>
+      </div>
+
+      <div class="playlist-row">
+
+        <details class="playlist-card playlist-card--rag">
+          <summary>
+            <div class="playlist-card-stripe"></div>
+            <div class="playlist-card-meta">
+              <span class="playlist-card-title">Adaptive RAG Research Paper</span>
+              <span class="playlist-card-views">Research · 2024–2025 · Python · PyTorch</span>
+            </div>
+            <span class="playlist-card-toggle" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="playlist-card-body">
+            <p>
+              <em>Token-Efficient Question Answering with Adaptive RAG via Uncertainty
+              Estimation.</em> A novel RAG pipeline that selectively triggers retrieval
+              based on an LLM's uncertainty estimation — reducing token usage while
+              preserving accuracy. An inference-time controller computes entropy-based
+              thresholds to decide when external context is needed vs. when parametric
+              knowledge suffices. Benchmarked on SQuAD, Natural Questions, and TriviaQA
+              against standard RAG baselines.
+            </p>
+            <a class="playlist-card-link"
+               href="https://drive.google.com/file/d/1s6fPVSWtlVpQMpadnJKEMUJUJ3u1KFus/view?usp=sharing"
+               target="_blank" rel="noopener">Open paper →</a>
+          </div>
+        </details>
+
+        <details class="playlist-card playlist-card--dna">
+          <summary>
+            <div class="playlist-card-stripe"></div>
+            <div class="playlist-card-meta">
+              <span class="playlist-card-title">DNA Foundation Models Paper</span>
+              <span class="playlist-card-views">Research · Jan–May 2026 · PyTorch · DNABERT-2</span>
+            </div>
+            <span class="playlist-card-toggle" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="playlist-card-body">
+            <p>
+              <em>Probing and Lightweight Fine-Tuning of DNA Foundation Models.</em>
+              Evaluates pretrained DNA foundation models (DNABERT-2, Nucleotide
+              Transformer, HyenaDNA) on three genomic classification tasks — human
+              non-TATA promoters, human enhancers (Cohn), and Drosophila enhancers
+              (Stark) — comparing probing vs. fine-tuning strategies (last-4-layer
+              unfreeze, progressive unfreeze, LoRA) across three pooling functions.
+            </p>
+            <a class="playlist-card-link"
+               href="images/DNA_Foundation_Models_Paper.pdf"
+               target="_blank" rel="noopener">Open paper →</a>
+          </div>
+        </details>
+
+        <details class="playlist-card playlist-card--bizlang">
+          <summary>
+            <div class="playlist-card-stripe"></div>
+            <div class="playlist-card-meta">
+              <span class="playlist-card-title">BizLang</span>
+              <span class="playlist-card-views">Product · 2023–present · React · Flask</span>
+            </div>
+            <span class="playlist-card-toggle" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="playlist-card-body">
+            <p>
+              A Duolingo-style app that teaches industry-specific language through
+              interactive learning — Wordle-style games, news feeds from the GNews API,
+              and chat-style flashcards, backed by 1,000+ jargon terms. 100+ users,
+              actively beta-testing with 30 healthcare professionals in Ethiopia.
+            </p>
+            <a class="playlist-card-link"
+               href="https://trybizlang.com" target="_blank" rel="noopener">Visit trybizlang.com →</a>
+          </div>
+        </details>
+
+      </div>
+    </section>
+
+    <section class="playlist" aria-label="Experience">
+      <div class="playlist-header">
+        <span class="playlist-name">experience</span>
+      </div>
+
+      <div class="playlist-row">
+
+        <details class="playlist-card playlist-card--servicenow">
+          <summary>
+            <div class="playlist-card-stripe"></div>
+            <div class="playlist-card-meta">
+              <span class="playlist-card-title">ServiceNow — Software Engineer Intern</span>
+              <span class="playlist-card-views">May 2024 – Aug 2024 · Santa Clara, CA</span>
+            </div>
+            <span class="playlist-card-toggle" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="playlist-card-body">
+            <ul class="playlist-card-bullets">
+              <li>
+                Automated story and regression tests in Java with Selenium across
+                ServiceNow's internal lists, forms, and streams. Merged 5 PRs.
+              </li>
+              <li>
+                Engineered an AI-driven extension in TypeScript + Node using the GitHub
+                and OpenAI APIs that auto-fills build requests and summarizes PRs —
+                streamlining the merge process.
+              </li>
+              <li>
+                Deployed a Mattermost bot for live defect and story updates, built on
+                JavaScript, JSON, and a Jenkins pipeline.
+              </li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="playlist-card playlist-card--servicenow">
+          <summary>
+            <div class="playlist-card-stripe"></div>
+            <div class="playlist-card-meta">
+              <span class="playlist-card-title">ServiceNow — ML Engineer Intern</span>
+              <span class="playlist-card-views">May 2025 – Aug 2025 · Santa Clara, CA</span>
+            </div>
+            <span class="playlist-card-toggle" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="playlist-card-body">
+            <ul class="playlist-card-bullets">
+              <li>
+                Engineered scalable infrastructure for evaluating agentic router prompts
+                across multiple LLMs (GPT-4o, Claude, Gemini, LLaMA) — high-throughput
+                prompt tuning and reproducible benchmarking.
+              </li>
+              <li>
+                Built an evaluation pipeline in Python + PyTorch measuring routing
+                accuracy, tool-invocation success, and task-completion rates across tens
+                of thousands of model outputs.
+              </li>
+              <li>
+                Designed AutoChat and Judge LLM systems to simulate and evaluate full
+                multi-turn conversations for automated conversational QA.
+              </li>
+              <li>
+                Collaborated with linguists to deploy labeled datasets into production
+                workflows; merged 6 PRs and surfaced insights to agentic-adjacent teams.
+              </li>
+            </ul>
+          </div>
+        </details>
+
+        <details class="playlist-card playlist-card--usc">
+          <summary>
+            <div class="playlist-card-stripe"></div>
+            <div class="playlist-card-meta">
+              <span class="playlist-card-title">USC Interaction Lab — Research Assistant</span>
+              <span class="playlist-card-views">Aug 2023 – May 2026 · Los Angeles, CA</span>
+            </div>
+            <span class="playlist-card-toggle" aria-hidden="true">⌄</span>
+          </summary>
+          <div class="playlist-card-body">
+            <ul class="playlist-card-bullets">
+              <li>
+                Implement pre-trained LLMs (CLIP) to generate image embeddings from the
+                MuFaSAA dataset — 165 robots and 1,200+ entries — and identify algorithms
+                that reduce computational time by 87%.
+              </li>
+              <li>
+                Hyperparameter-tune SVR and transformers with Optuna to predict social and
+                functional expectations of robots based on design features and metaphors,
+                reaching R² > 0.7 on warmth, discomfort, and competency.
+              </li>
+              <li>
+                Collaborate with a PhD mentor on Vision-Language Models that predict
+                explanatory metaphors for robot designs — aimed at enhancing user
+                understanding and engagement with robotic technologies.
+              </li>
+            </ul>
+          </div>
+        </details>
+
+      </div>
+    </section>
+  </div>
+
 </main>
 
 <script type="module" src="chat.js"></script>
